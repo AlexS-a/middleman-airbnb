@@ -7,15 +7,15 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="stylesheets/application-7b0061a3.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-7b0061a3.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo">
+    <img src="images/logo.png" alt="logo">
   </a>
 
   <!-- Right Navigation -->
@@ -33,7 +33,7 @@
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
           <li><a href="#">Log Out</a></li>
-          <li><a href="team.html">Team</a></li>
+          <li><a href="../team.html">Team</a></li>
         </ul>
       </div>
     </div>
@@ -52,24 +52,56 @@
   </div>
 </div>
 
-    <ul class="list-inline text-center">
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/AlexS-a" class="img-circle" style="height: 50px" alt="Alexs a" />
-      <h3 style="font-size: 20px">Alexs-a</h3>
-    </li>
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/sumaik" class="img-circle" style="height: 50px" alt="Sumaik" />
-      <h3 style="font-size: 20px">Sumaik</h3>
-    </li>
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/benbaumann95" class="img-circle" style="height: 50px" alt="Benbaumann95" />
-      <h3 style="font-size: 20px">Benbaumann95</h3>
-    </li>
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/malawi89" class="img-circle" style="height: 50px" alt="Malawi89" />
-      <h3 style="font-size: 20px">Malawi89</h3>
-    </li>
-</ul>
+    
+<!-- Inject flat data in template -->
+<div>
+  <div class="card" style="height: 300px; background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/london');">
+  <div class="card-category">Popular</div>
+  <div class="card-description">
+    <p>Romain's home</p>
+    <h2>Nice flat in Piccadilly</h2>
+    <p>London, UK</p>
+  </div>
+  <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="img-circle card-profile" alt="Monsieurpaillard" />
+  </div>
+
+</div>
+
+  <body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+        <form action="#">
+          <h1 class="text-center">Book Your Flat</h1>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="form-group">
+                <label for="first-name">First name</label>
+                <input type="first-name" id="first-name" class="form-control">
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div class="form-group">
+                <label for="last-name">Last name</label>
+                <input type="last-name" id="last-name" class="form-control">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Your email</label>
+            <input type="email" id="email" class="form-control">
+          </div>
+          <input type="submit" value="Book Now" class="btn btn-primary form-control">
+        </form>
+    </div>
+  </div>
+</div>
+
+    <!-- Your responsive signup form -->
+
+  </body>
+</html>
 
     <div class="footer">
   <div class="footer-links">
